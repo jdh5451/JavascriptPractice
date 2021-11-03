@@ -15,3 +15,21 @@ function zeroesToEnd(arr){
 
 zeroesToEnd([1, 2, 0, 0, 4, 0, 5]);
 
+//takes 2 integers
+function shiftToRight(operand, num){
+    return Math.floor(operand/Math.pow(2,num));
+}
+
+console.log(shiftToRight(80, 3));
+
+console.log(shiftToRight(-24, 2));
+
+console.log(shiftToRight(-5, 1));
+
+console.log(shiftToRight(4666, 6));
+
+console.log(shiftToRight(3777, 6));
+
+console.log(shiftToRight(-512, 10));
+
+console.log(shiftToRight(0,1));
